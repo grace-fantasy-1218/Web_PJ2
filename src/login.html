@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>登录账户</title>
+    <link rel="stylesheet"  type="text/css" href="../css/login.css" media="all">
+</head>
+<body>
+<div id="contents">
+    <h1>登录</h1>
+    <section>
+        <form action="login.php" method="post" id="loginForm">
+            <p>
+                <strong>用户名</strong><br>
+                <input type="text" name="name" required pattern="^[0-9a-zA-Z_]{1,}$" placeholder="允许大小写字母、数字和下划线">
+            </p>
+            <strong>请输入密码</strong><br>
+            <input type="password" name="password" pattern="^[0-9a-zA-Z_#]{8,}$" required placeholder="8位以上，允许大小写字母和数字">
+            </p>
+            <a href="register.html" id="goRegister" autofocus><p>未注册用户点击前往注册</p></a>
+
+            <input type="submit" value="登录" id="submit">
+        </form>
+    </section>
+</div>
+
+<footer>
+    <p>备案号：19302010066</p>
+    <p>意见箱</p>
+    <p>联系我们</p>
+    <p>加入我们</p>
+</footer>
+</body>
+</html>
+
+
+
+
