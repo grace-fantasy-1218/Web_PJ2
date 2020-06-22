@@ -1,0 +1,46 @@
+#right{
+    float: right;
+    margin-right: 20px;
+}
+.small_description{
+    margin-left: 20px;
+    width: 280px;
+    height: 25px;
+}
+.content{
+    margin-left: 150px;
+    width: 280px;
+    height: 25px;
+}
+#description{
+    margin-left: 20px;
+    width: 280px;
+    height: 250px;
+}
+
+#imgPreview{
+    float: left;
+}
+#preview{
+    width: 630px;
+    height: 430px;
+    border: dashed 1px;
+}
+#imghead5{
+    width: 630px;
+    height: 430px;
+    text-align: center;
+    font-size: 30px;
+}
+#提交{
+    margin-left: 320px;
+    border-color: lightblue;
+    border: dashed 1px;
+    font-size: 20px;
+}
+#evidence{
+    margin-bottom: 20px;
+}
+#form1{
+    padding-left: 100px;
+}

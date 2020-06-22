@@ -1,0 +1,65 @@
+/*左侧侧边栏*/
+#small_title{
+    font-family: monospace;
+    font-weight: bolder;
+    padding-left: 24px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: lightblue;
+}
+#search{
+    width: 100px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+#search_check{
+    margin-right: 20px;
+}
+.part{  
+    border-collapse: collapse;
+    border-color: lightblue;
+    border-style: dotted;
+}
+.part li a{
+    font-size: 20px;
+    color: black;
+}
+aside{
+    position: absolute;
+    left: 200px;
+    top: 300px;
+}
+
+/*中间板块*/
+#main_part{
+    margin-left: 420px;
+    margin-top: 30px;
+    width: 860px;
+}
+#pics img{
+    object-fit: cover;
+    width: 240px;
+    height: 240px;
+    padding: 20px;
+}
+#main_part select{
+    margin: 20px;
+}
+#main_part{
+    height: 1200px;
+}
+#pages{
+    margin-left: 330px;
+}
+#start_select{
+    margin-left: 10px;
+    font-size: 20px;
+    background-color: lightblue;
+    border-style: dashed;
+    border-color: white;
+    padding: 5px;
+    border-radius: 4px;
+}
+#browser{
+    background-color: rgba(120, 198, 243, 0.897);
+}

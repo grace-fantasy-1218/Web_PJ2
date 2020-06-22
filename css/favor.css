@@ -1,0 +1,40 @@
+#small_title{
+    font-family: monospace;
+    font-weight: bolder;
+    padding-left: 24px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 0;
+    background-color: lightblue;
+}
+.pics{  
+    border-collapse: collapse;
+    border-color: lightblue;
+    border-style: dotted;
+    width: 1080px;
+}
+.pics img{
+    margin: 20px;
+    width: 250px;
+}
+.pics strong{
+    font-size: 25px;
+}
+.pics p{
+    margin-top: -10px;
+    margin-bottom: -40px;
+    padding-left: 100px;
+}
+#edit{
+    border-width: 0;
+    background-color: rgba(255, 255, 255, 0.356);
+    font-size: 15px;
+    color: #278de0;
+    margin-right: 30px;
+}
+#delete{
+    border-width: 0;
+    background-color: rgba(255, 255, 255, 0.384);
+    font-size: 15px;
+    color: #fd4c4c;
+}
